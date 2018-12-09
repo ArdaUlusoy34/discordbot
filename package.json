@@ -1,0 +1,14 @@
+{
+  "name": "haxlifebot",
+  "version": "0.0.1",
+  "description": "İlk ve Tek Haxlife Discord BOT'u",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "author": "Zent",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
