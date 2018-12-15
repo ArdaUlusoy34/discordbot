@@ -59,7 +59,16 @@ client.elevation = message => {
   return permlvl;
 };
 
+client.on('guildMemberAdd', (member) =>{
+  var joinrole = member.guild.roles.find('name','misafir');
+  member.addRole(joinrole);
+  const joinchannel = member.guild.channels.find('name','☑-giris-cıkıs');
+  joinchannel.send('Haxlife.com Discorduna Hoşgeldin');
+
+
+})
 
 
 
-client.login(process.env.BOT_TOKEN);
+
+client.login(ayarlar.token);
