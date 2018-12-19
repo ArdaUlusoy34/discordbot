@@ -26,7 +26,7 @@ client.on('message', message => {
   }
 
   if (message.content === prefix + "yardım"){
-    message.reply ("Merhabab ben Haxlife BOT aşağıda gördüğün komutlar benim çalışmamı sağlar, İyi Günler.")
+    message.reply ("Merhaba ben Haxlife BOT aşağıda gördüğün komutlar benim çalışmamı sağlar, İyi Günler.")
   }
 
   if (message.content === prefix + "sunucubilgi" ){
